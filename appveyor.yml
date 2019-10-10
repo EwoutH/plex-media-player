@@ -1,0 +1,11 @@
+image: Visual Studio 2019
+configuration: Release
+
+install:
+ - cmake .
+  
+build:
+  project: PlexMediaPlayer.sln
+
+artifacts:
+ - path: bin\Release\PlexMediaPlayer.exe
